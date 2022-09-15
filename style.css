@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    height: 5rem;
+    background-color: gold;
+    color: #05445E;
+    font-size: 2rem;
+    font-family: rubik;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: #05445E;
+}
+
