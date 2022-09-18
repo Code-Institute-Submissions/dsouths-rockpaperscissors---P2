@@ -8,3 +8,13 @@ const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 
+rock.addEventListener('click', function () {
+    console.log('You picked ROCK!');
+})
+paper.addEventListener('click', function () {
+    console.log('You picked PAPER!');
+})
+scissors.addEventListener('click', function () {
+    console.log('You picked SCISSORS!');
+})
+
