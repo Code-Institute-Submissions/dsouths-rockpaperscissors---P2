@@ -8,13 +8,28 @@ const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 
-rock.addEventListener('click', function () {
-    console.log('You picked ROCK!');
-})
-paper.addEventListener('click', function () {
-    console.log('You picked PAPER!');
-})
-scissors.addEventListener('click', function () {
-    console.log('You picked SCISSORS!');
-})
+function game(userChoice) { 
+     
+}
+function getComputerChoice() {
+    const choices = ['rock', 'paper', 'scissors'];
+    console.log(Math.floor(Math.random() * 3));
+}
 
+// don't forget to include function or will not log to console
+getComputerChoice();
+
+
+function main() {
+    rock.addEventListener('click', function () {
+        game("rock");
+    })
+    paper.addEventListener('click', function () {
+        game("paper");
+    })
+    scissors.addEventListener('click', function () {
+        game("scissors");
+    })
+}
+// make sure to include this function or will not work correctly - no loggingt oconsole without //
+main();
