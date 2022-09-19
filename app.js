@@ -21,22 +21,33 @@ function game(userChoice) {
         case "rockscissors":
         case "paperrock":
         case "scissorspaper":
-            console.log("You win!!")
+            win();
             break;
         case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
-            console.log("You lose!!")
+            lose();
             break;   
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
-            console.log("It's a draw!!")
+            draw();
             break;      
     }
        
 }
 
+function win() {
+    console.log("win")
+}
+
+function lose() {
+    console.log("lose")
+}
+
+function draw() {
+    console.log("draw")
+}
 
 function main() {
     rock.addEventListener('click', function () {
