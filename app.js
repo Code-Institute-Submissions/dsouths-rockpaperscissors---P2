@@ -8,17 +8,34 @@ const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 
-function game(userChoice) { 
-     
-}
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissors'];
     const randomNumber = (Math.floor(Math.random() * 3));
+    // returns element rather than random number//
     return choices[randomNumber];
 }
 
-// don't forget to include function or will not log to console
-console.log(getComputerChoice());
+function game(userChoice) { 
+    const computerChoice = getComputerChoice();
+    switch(userChoice + computerChoice) {
+        case "rockscissors":
+        case "paperrock":
+        case "scissorspaper":
+            console.log("You win!!")
+            break;
+        case "rockpaper":
+        case "paperscissors":
+        case "scissorsrock":
+            console.log("You lose!!")
+            break;   
+        case "rockrock":
+        case "paperpaper":
+        case "scissorsscissors":
+            console.log("It's a draw!!")
+            break;      
+    }
+       
+}
 
 
 function main() {
