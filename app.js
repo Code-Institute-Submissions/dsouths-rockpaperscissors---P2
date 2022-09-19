@@ -13,11 +13,12 @@ function game(userChoice) {
 }
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissors'];
-    console.log(Math.floor(Math.random() * 3));
+    const randomNumber = (Math.floor(Math.random() * 3));
+    return choices[randomNumber];
 }
 
 // don't forget to include function or will not log to console
-getComputerChoice();
+console.log(getComputerChoice());
 
 
 function main() {
