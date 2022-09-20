@@ -18,8 +18,8 @@ function getComputerChoice() {
 function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
-    console.log(user);
-    console.log(computer);
+    computerScore_span.innerHTML = computerScore;
+    gameResult_p.innerHTML = userChoice + " beats " + computerChoice + "...You win!!";
 }
 
 function lose() {
