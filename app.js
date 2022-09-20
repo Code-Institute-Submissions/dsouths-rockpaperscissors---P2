@@ -19,17 +19,17 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    gameResult_p.innerHTML = userChoice + " beats " + computerChoice + "...You win!!";
+    gameResult_p.innerHTML = userChoice + " beats " + computerChoice + "...you WIN!!😁";
 }
 
-function lose() {
+function lose(userChoice, computerChoice) {
     computerScore++;
     computerScore_span.innerHTML = computerScore;
-    
+    gameResult_p.innerHTML = userChoice + " loses to " + computerChoice + "...you LOSE!!😭";
 }
 
-function draw() {
-    console.log("draw")
+function draw(userChoice, computerChoice) {
+    gameResult_p.innerHTML = "it's a DRAW.....try again!!"
 }
 
 function game(userChoice) { 
