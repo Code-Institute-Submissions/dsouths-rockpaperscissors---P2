@@ -51,10 +51,7 @@ function game(userChoice) {
             draw(userChoice, computerChoice);
             break;      
     }
-       
 }
-
-
 
 function main() {
     rock.addEventListener('click', function () {
@@ -69,3 +66,5 @@ function main() {
 }
 // make sure to include this function or will not work correctly - no loggingt oconsole without //
 main();
+
+
