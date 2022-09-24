@@ -2,8 +2,13 @@
 
 <!--ts-->
    * [Intro](#intro)
-   * [Features](#features)
    * [UX](#ux)
+   * [Fonts](#fonts)
+   * [Icons](#icons)
+   * [Design](#design)
+   * [Features](#features)
+   * [Validation Checks](#validation-checks)
+   * [Technologies Used](#technologies-used)
 <!--te-->
 
 
@@ -37,9 +42,11 @@ I plan to incorporate the following into the user experience:
  * make the game visually appealing to the user with complimentary colors, icons/emojis & call to actions
  * the game should work without any bugs or faults  
 
-<h2>Fonts & Icons</h2>
+<h2>Fonts</h2>
 
 I used [<b>Google Fonts</b>](https://fonts.google.com/) as it has a vast amount of modern & contemporary fonts. The two fonts I have used are Hind Siligur & Rubik, I felt these fonts complimented each other, where clean & modern & easily readible for the user. 
+
+<h2>Icons</h2>
 
 I have used a favicon from [Font Awesome](https://fontawesome.com/)
 
@@ -50,6 +57,41 @@ I wanted to make the website visually appealing to the user so decided to use em
 * Scissors ✌️
 
 I used a smiling emoji (😁) when the user wins & a crying emoji (😭) in the result description when the user loses, to add to the visual experience of the user. These were sourced from [GetEmoji](https://getemoji.com/)   
+
+<h2>Design</h2>
+
+I used [Coolors](https://coolors.co/) to get a complimentary color palette to add to the visual experience of the user. I used the following:
+
+* #05445E - very dark blue
+* #FFD700 - gold
+* #F0F8FF - alice blue
+
+<h2>Features</h2>
+
+<h3>Main Screen</h3>
+
+![main screen](https://user-images.githubusercontent.com/105642587/192106432-870cee2b-f9a5-408b-a1f1-b7e3cde38b7e.jpg)
+
+<h3>Header</h3>
+
+![header](https://user-images.githubusercontent.com/105642587/192106474-81a199af-baf3-4d3c-8114-fb017f8ed681.jpg)
+
+
+<h3>User Choice Buttons</h3>
+
+![UserChoice buttons](https://user-images.githubusercontent.com/105642587/192106485-acf343fb-6b8a-48e4-b4cb-68a8daa08537.jpg)
+
+
+<h3>Scoreboard</h3>
+
+![scoreboard](https://user-images.githubusercontent.com/105642587/192106479-73bdb851-1a75-4aac-89b5-ea0ca22c4e2a.jpg)
+
+<h3>Results description</h3>
+
+![results description - draw](https://user-images.githubusercontent.com/105642587/192106501-406abc54-4495-4453-a85c-1087a60f288c.jpg)
+![results description - lose](https://user-images.githubusercontent.com/105642587/192106502-7a309ddd-4e3a-481a-a813-21822246b5d0.jpg)
+![results description - win](https://user-images.githubusercontent.com/105642587/192106504-f95ff3f4-4990-41c2-b443-65f66f64a39c.jpg)
+
 
 <h2>Validation Checks</h2>
 
@@ -81,5 +123,14 @@ I used a smiling emoji (😁) when the user wins & a crying emoji (😭) in the 
 * [Font Awesome](https://fontawesome.com/)
 * [<b>Google Fonts</b>](https://fonts.google.com/)
 * [GetEmoji](https://getemoji.com/)
+* [Coolors](https://coolors.co/)
+
+
+Extras
+
+https://www.w3schools.com/ - clearing up some function queries I had
+https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions
+use of console.log() useful tool to determine if functions are working straight away 
+can’t have userscore & computer score as a const as it changes so better to use let
 
 
