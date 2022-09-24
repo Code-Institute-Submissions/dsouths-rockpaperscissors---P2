@@ -39,4 +39,4 @@ I plan to incorporate the following into the user experience:
 
 <h2>Fonts</h2>
 
-I used [google fonts] (https://fonts.google.com/)
+I used [<b>Google Fonts</b>](https://fonts.google.com/) as it has a vast amount of modern & contemporary fonts. The two fonts I have used are Hind Siligur & Rubik, I felt these fonts complimented each other, where clean & modern & easily readible for the user. 
