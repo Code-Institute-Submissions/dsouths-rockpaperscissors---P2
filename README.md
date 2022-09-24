@@ -39,4 +39,4 @@ I plan to incorporate the following into the user experience:
 
 <h2>Fonts</h2>
 
-I used google fonts [https://fonts.google.com/]
+I used google fonts *[https://fonts.google.com/]
