@@ -7,4 +7,10 @@
 
 
 <h2>Intro</h2>
-I have created this Rock Paper Scissors game which utilizes HTML & CSS, with the main purpose of the project to showcase the skills I have learned in the latest Code Institute module, Javascript. 
+I have created this Rock Paper Scissors game which utilizes HTML & CSS, with the main purpose of the project to showcase the skills I have learned in the latest Code Institute module, Javascript. The game pits the user/player against the computer.
+
+Rules
+
+* Rock beats Scissors
+* Paper beats Rock
+* Scissors beats Paper
