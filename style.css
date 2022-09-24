@@ -115,6 +115,11 @@ h2 {
 }
 
 @media (max-width: 425px) {
+    header {
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    
     .choice {
         font-size: 5rem;
     }
@@ -125,6 +130,10 @@ h2 {
 }
 
 @media (max-width: 375px) {
+    header {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
     .choice {
         font-size: 4.5rem;
     }
