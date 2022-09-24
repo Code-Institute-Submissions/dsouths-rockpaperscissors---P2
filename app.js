@@ -1,5 +1,6 @@
 let userScore = 0;
 let computerScore = 0;
+let moves = 0;
 const userScore_span = document.getElementById('user-score');
 const computerScore_span = document.getElementById('computer-score');
 const scoreBoard_div = document.querySelector('.score-board');
@@ -64,7 +65,25 @@ function main() {
         game("scissors");
     })
 }
-// make sure to include this function or will not work correctly - no loggingt oconsole without //
+// make sure to include this function or will not work correctly - no logging to console without //
 main();
+
+function gameOver() {
+    if(userScore === 10 && computerScore < 10){
+        alert('You WON the game!! Congrats!')
+        userScore = 0;
+        computerScore =0;
+    }
+    
+    else if(userScore <10 && computerScore === 10){
+        alert('You LOST the game!! Better luck next time...')
+        userScore = 0;
+        computerScore =0;
+    }
+}
+gameOver();
+
+
+
 
 
