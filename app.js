@@ -75,7 +75,7 @@ function gameOver() {
         computerScore =0;
     }
     
-    else if(userScore <10 && computerScore === 10){
+    if(userScore <10 && computerScore === 10){
         alert('You LOST the game!! Better luck next time...')
         userScore = 0;
         computerScore =0;
