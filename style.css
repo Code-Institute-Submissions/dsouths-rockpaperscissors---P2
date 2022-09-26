@@ -92,11 +92,19 @@ h2 {
     text-align: center;
     margin: 10px; 
 }
-.movesleft {
-    font-family: rubik, sans-serif;
+
+.restart {
+    background-color: gold;
+    color: #05445E;
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
     text-align: center;
-    margin: 10px;
-    color: aliceblue;
+    justify-content: center;
+    margin: auto;
+    font-family: rubik, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 

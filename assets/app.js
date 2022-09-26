@@ -1,10 +1,13 @@
 let userScore = 0;
 let computerScore = 0;
 let moves = 0;
+
+const max_points = 10;
 const userScore_span = document.getElementById('user-score');
 const computerScore_span = document.getElementById('computer-score');
 const scoreBoard_div = document.querySelector('.score-board');
 const gameResult_p = document.querySelector('.game-result > p');  
+
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
@@ -54,7 +57,7 @@ function game(userChoice) {
     }
 }
 
-function main() {
+function buttonClick() {
     rock.addEventListener('click', function () {
         game("rock");
     })
@@ -65,20 +68,23 @@ function main() {
         game("scissors");
     })
 }
-// make sure to include this function or will not work correctly - no logging to console without //
-main();
+buttonClick();
 
 function gameOver() {
-    if(userScore === 10 && computerScore < 10){
+    if(userScore === max_points && computerScore < max_points){
         alert('You WON the game!! Congrats!')
         userScore = 0;
-        computerScore =0;
+        computerScore = 0;
     }
-    
-    if(userScore <10 && computerScore === 10){
+    if(userScore < max_points && computerScore === max_points){
         alert('You LOST the game!! Better luck next time...')
         userScore = 0;
-        computerScore =0;
+        computerScore = 0;
+    }
+    if(userScore === max_points && computerScore === max_points){
+        alert('The game is a DRAW, wanna play again?')
+        userScore = 0;
+        computerScore = 0;
     }
 }
 gameOver();
