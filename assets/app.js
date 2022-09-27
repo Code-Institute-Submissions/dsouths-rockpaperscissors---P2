@@ -83,13 +83,13 @@ function gameOver() {
         computerScore = 0;
         isGameOver = true;
     }
-    if(userScore < max_points && computerScore === max_points){
+    else if(userScore < max_points && computerScore === max_points){
         alert('You LOST the game!! Better luck next time...')
         userScore = 0;
         computerScore = 0;
         isGameOver = true;
     }
-    if(userScore === max_points && computerScore === max_points){
+    else if(userScore === max_points && computerScore === max_points){
         alert('The game is a DRAW, wanna play again?')
         userScore = 0;
         computerScore = 0;
@@ -101,7 +101,12 @@ function gameOver() {
     else {
         restart.style.display = "none";
     }
+}
 
+function restartGame() {
+    isGameOver = false;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerText = computerScore;
 }
 
 buttonClick();
