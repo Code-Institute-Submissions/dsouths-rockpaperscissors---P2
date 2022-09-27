@@ -95,8 +95,15 @@ function gameOver() {
         computerScore = 0;
         isGameOver = true;
     }
-    restart.style.display = 'flex';
+    if(isGameOver){
+        restart.style.display = 'flex';
+    }
+    else {
+        restart.style.display = "none";
+    }
+
 }
+
 buttonClick();
 
 
