@@ -81,18 +81,21 @@ function gameOver() {
         alert('You WON the game!! Congrats!')
         userScore = 0;
         computerScore = 0;
+        isGameOver = true;
     }
     if(userScore < max_points && computerScore === max_points){
         alert('You LOST the game!! Better luck next time...')
         userScore = 0;
         computerScore = 0;
+        isGameOver = true;
     }
     if(userScore === max_points && computerScore === max_points){
         alert('The game is a DRAW, wanna play again?')
         userScore = 0;
         computerScore = 0;
+        isGameOver = true;
     }
-    restart.style.display = 'flex'
+    restart.style.display = 'flex';
 }
 buttonClick();
 
