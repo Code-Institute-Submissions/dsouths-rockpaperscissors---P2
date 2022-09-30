@@ -1,13 +1,13 @@
 let userScore = 0;
 let computerScore = 0;
 let isGameOver = false;
-
+// to allow game to finish when user or player reaches 10 points
 const max_points = 10;
 const userScore_span = document.getElementById('user-score');
 const computerScore_span = document.getElementById('computer-score');
-const scoreBoard_div = document.querySelector('.score-board');
 const gameResult_p = document.querySelector('.game-result > p');
 const restart = document.querySelector('.restart');  
+
 
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
@@ -58,39 +58,39 @@ function lose(userChoice, computerChoice) {
 }
 
 function draw(userChoice, computerChoice) {
-    gameResult_p.innerHTML = "it's a DRAW.....try again!!"
+    gameResult_p.innerHTML = "it's a DRAW.....try again!!";
 }
 
 function buttonClick() {
     rock.addEventListener('click', function () {
         game("rock");
-    })
+    });
     paper.addEventListener('click', function () {
         game("paper");
-    })
+    });
     scissors.addEventListener('click', function () {
         game("scissors");
-    })
+    });
     restart.addEventListener('click', function () {
         restartGame();
-    })
-};
+    });
+}
 
 function gameOver() {
     if(userScore === max_points && computerScore < max_points){
-        alert('You WON the game!! Congrats!')
+        alert('You WON the game!! Congrats!');
         userScore = 0;
         computerScore = 0;
         isGameOver = true;
     }
     else if(userScore < max_points && computerScore === max_points){
-        alert('You LOST the game!! Better luck next time...')
+        alert('You LOST the game!! Better luck next time...');
         userScore = 0;
         computerScore = 0;
         isGameOver = true;
     }
     else if(userScore === max_points && computerScore === max_points){
-        alert('The game is a DRAW, wanna play again?')
+        alert('The game is a DRAW, wanna play again?');
         userScore = 0;
         computerScore = 0;
         isGameOver = true;
