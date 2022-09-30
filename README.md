@@ -2,6 +2,9 @@
 
 ![am i responsive](https://user-images.githubusercontent.com/105642587/193278077-65f4b9e9-dce0-4cbb-8adc-c8f1f2917d53.jpg)
 
+
+<b>Deployed Website: </b>  
+
 <!--ts-->
    * [Intro](#intro)
    * [UX](#ux)
@@ -136,14 +139,32 @@ but would not function on deployed website. For javascript file to load correctl
 <script src="/rockpaperscissors---P2/assets/app.js"></script>
 <hr>
 <b>Issue with gameOver function - </b> I had issues with getting game to stop when user or computer reached max_points (set to 10 in this example).I overcame this by setting a variable as "let isGameover = false;". Then adding isGameOver function into the game() function. So if isGameOver function is false then play the game. Within the game function the gameOver function was included to run with statements defined within the function gameOver() with an else if statement. These determined the conditions for who won, the user or computer or if the game was drawn. The code was executed if the conditions were true, i.e. 
-- if(userScore === max_points && computerScore < max_points){
-   - alert('You WON the game!! Congrats!');
-   - userScore = 0;
-   - computerScore = 0;
-   - isGameOver = true;  
-<hr>
-<b>Restart button only appearing when game was over - </b> I initially had this as display:none within CSS but this did not work. I  
+//* if(userScore === max_points && computerScore < max_points){
+//* alert('You WON the game!! Congrats!');
+//* userScore = 0;
+//* computerScore = 0;
+//* isGameOver = true;  
 
+<hr>
+<b>Restart button only appearing when game was over - </b> I initially had this as display:none within CSS but this did not work. I overcame this issue by including CSS styling rules within the gameOver function: 
+<p>if(isGameOver){ <br>
+        restart.style.display = 'flex';<br>
+    }<br>
+    else {<br>
+        restart.style.display = "none";<br>
+    }<br>
+  
+<h2>Deployment</h2>
+
+The website was deployed on GitHub by using following steps:
+
+Login into GitHub and locate the repository - pharmacy
+At the top of repository locate the "settings" button and click on it
+On the left sidebar find locate the "pages" button and click on it
+Click on the branch dropdown menu and select: master
+Click save
+link to your deployed repository on the screen below
+  
 <h2>Technologies Used</h2>
 
 * HTML
