@@ -103,7 +103,17 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 
 ![image](https://user-images.githubusercontent.com/105642587/192105537-959ccdb3-bed7-4c3f-b962-b116b2c908f2.png)
 
+<b>JSHint</b>(https://jshint.com/)
 
+<b>Wev Dev Tools Chrome</b>
+
+I used web dev tools in chrome to access the quality & accessibility of the webpage. It gave me insight into how the RockPaperScissors website performed & scored highly in Performance, Accessibility, Best Practices & SEO for both desktop & mobile devices
+
+Mobile Devices
+![lighthouse 1 ](https://user-images.githubusercontent.com/105642587/193277827-ce4090be-d69e-435d-b242-2fe1f1e3eb22.jpg)
+
+Desktop devices
+![lighthouse desktop](https://user-images.githubusercontent.com/105642587/193277836-6eae1716-2487-4566-9383-d801ce09cb2e.jpg)
 
 
 <h2>Technologies Used</h2>
@@ -119,6 +129,7 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 * [W3c Html Validation service](https://validator.w3.org/)
 * [W3c Css Validation service](https://jigsaw.w3.org/css-validator/)
 * [JSHint JavaScript Validator](https://jshint.com/)
+* [Stack OverFlow](https://stackoverflow.com/)
 
 * [Font Awesome](https://fontawesome.com/)
 * [<b>Google Fonts</b>](https://fonts.google.com/)
@@ -128,9 +139,9 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 
 Extras
 
-https://www.w3schools.com/ - clearing up some function queries I had
-https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions
-use of console.log() useful tool to determine if functions are working straight away 
-can’t have userscore & computer score as a const as it changes so better to use let
+* https://www.w3schools.com/ - clearing up some function queries I had
+* https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions
+* use of console.log() useful tool to determine if functions are working straight away 
+* can’t have userscore & computer score as a const as it changes so better to use let
 
 
