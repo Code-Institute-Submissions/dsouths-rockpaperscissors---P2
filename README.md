@@ -182,12 +182,24 @@ link to your deployed repository on the screen below
 * [Stack OverFlow](https://stackoverflow.com/)
 
 * [Font Awesome](https://fontawesome.com/)
-* [<b>Google Fonts</b>](https://fonts.google.com/)
 * [GetEmoji](https://getemoji.com/)
 * [Coolors](https://coolors.co/)
 
 
-Extras
+<h3>Credits/References</h3>
+<li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
+<li><b>W3 Schools (https://www.w3schools.com/) - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
+
+<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify many issues with my code throughout the project including how to make my game end when getting to max amount of points</li>
+<li><b>Coolors (https://coolors.co/) -</b> used to select complimentary color palette</li>
+<li><b>https://fonts.google.com/ -</b> used to find complimentary fonts</li>
+	
+<h3>Acknowledgements</h3>
+
+<li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions</li>
+<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community. Thanks to Mateusz Smalarz & Alan_5P for helping me with some bug issues</li> 
+<li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
+
 
 * https://www.w3schools.com/ - clearing up some function queries I had
 * https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions
