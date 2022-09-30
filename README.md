@@ -103,16 +103,18 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 
 ![image](https://user-images.githubusercontent.com/105642587/192105537-959ccdb3-bed7-4c3f-b962-b116b2c908f2.png)
 
-<b>JSHint</b>(https://jshint.com/)
+<b>JSHint</b>
 
 <b>Wev Dev Tools Chrome</b>
 
 I used web dev tools in chrome to access the quality & accessibility of the webpage. It gave me insight into how the RockPaperScissors website performed & scored highly in Performance, Accessibility, Best Practices & SEO for both desktop & mobile devices
 
-Mobile Devices
+<b>Mobile Devices</b>
+
 ![lighthouse 1 ](https://user-images.githubusercontent.com/105642587/193277827-ce4090be-d69e-435d-b242-2fe1f1e3eb22.jpg)
 
-Desktop devices
+<b>Desktop devices</b>
+
 ![lighthouse desktop](https://user-images.githubusercontent.com/105642587/193277836-6eae1716-2487-4566-9383-d801ce09cb2e.jpg)
 
 
