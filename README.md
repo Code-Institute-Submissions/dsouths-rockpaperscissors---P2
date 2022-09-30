@@ -95,6 +95,12 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 ![results description - lose](https://user-images.githubusercontent.com/105642587/192106502-7a309ddd-4e3a-481a-a813-21822246b5d0.jpg)
 ![results description - win](https://user-images.githubusercontent.com/105642587/192106504-f95ff3f4-4990-41c2-b443-65f66f64a39c.jpg)
 
+<h3>Game Result Alerts</h3>
+
+![you won alert](https://user-images.githubusercontent.com/105642587/193286598-bc3815bc-dbd4-4648-b52c-7e40882368fc.jpg)
+
+![you LOST alert](https://user-images.githubusercontent.com/105642587/193286608-eb7da41d-532f-43bc-9882-7fe9ed8ce4a8.jpg)
+
 
 <h2>Validation Checks</h2>
 
@@ -128,15 +134,16 @@ I used web dev tools in chrome to access the quality & accessibility of the webp
 
 but would not function on deployed website. For javascript file to load correctly I changed to absolute file path  
 <script src="/rockpaperscissors---P2/assets/app.js"></script>
-
+<hr>
 <b>Issue with gameOver function - </b> I had issues with getting game to stop when user or computer reached max_points (set to 10 in this example).I overcame this by setting a variable as "let isGameover = false;". Then adding isGameOver function into the game() function. So if isGameOver function is false then play the game. Within the game function the gameOver function was included to run with statements defined within the function gameOver() with an else if statement. These determined the conditions for who won, the user or computer or if the game was drawn. The code was executed if the conditions were true, i.e. 
-if(userScore === max_points && computerScore < max_points){
-   alert('You WON the game!! Congrats!');
-   userScore = 0;
-   computerScore = 0;
-   isGameOver = true;  
+- if(userScore === max_points && computerScore < max_points){
+   - alert('You WON the game!! Congrats!');
+   - userScore = 0;
+   - computerScore = 0;
+   - isGameOver = true;  
+<hr>
+<b>Restart button only appearing when game was over - </b> I initially had this as display:none within CSS but this did not work. I  
 
-<b>Restart button only appearing when game was over - </b>
 <h2>Technologies Used</h2>
 
 * HTML
