@@ -1,9 +1,8 @@
 <h1> Rock Paper Scissors</h1>
 
+<b>[Deployed Website](https://dsouths.github.io/rockpaperscissors---P2/)</b>
+
 ![am i responsive](https://user-images.githubusercontent.com/105642587/193278077-65f4b9e9-dce0-4cbb-8adc-c8f1f2917d53.jpg)
-
-
-<b>Deployed Website: </b>  
 
 <!--ts-->
    * [Intro](#intro)
