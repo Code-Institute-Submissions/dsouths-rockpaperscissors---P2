@@ -1,5 +1,7 @@
 <h1> Rock Paper Scissors</h1>
 
+![am i responsive](https://user-images.githubusercontent.com/105642587/193278077-65f4b9e9-dce0-4cbb-8adc-c8f1f2917d53.jpg)
+
 <!--ts-->
    * [Intro](#intro)
    * [UX](#ux)
@@ -8,6 +10,7 @@
    * [Design](#design)
    * [Features](#features)
    * [Validation Checks](#validation-checks)
+   * [Bugs](#bugs)
    * [Technologies Used](#technologies-used)
 <!--te-->
 
@@ -118,6 +121,22 @@ I used web dev tools in chrome to access the quality & accessibility of the webp
 ![lighthouse desktop](https://user-images.githubusercontent.com/105642587/193277836-6eae1716-2487-4566-9383-d801ce09cb2e.jpg)
 
 
+<h2>Bugs</h2>
+
+<b>Deployed website would not function - </b> Issue with relative & absolute file path for javascript file "app.js", would work with gitpod website preview using:
+<script src="assets/app.js"></script>  
+
+but would not function on deployed website. For javascript file to load correctly I changed to absolute file path  
+<script src="/rockpaperscissors---P2/assets/app.js"></script>
+
+<b>Issue with gameOver function - </b> I had issues with getting game to stop when user or computer reached max_points (set to 10 in this example).I overcame this by setting a variable as "let isGameover = false;". Then adding isGameOver function into the game() function. So if isGameOver function is false then play the game. Within the game function the gameOver function was included to run with statements defined within the function gameOver() with an else if statement. These determined the conditions for who won, the user or computer or if the game was drawn. The code was executed if the conditions were true, i.e. 
+if(userScore === max_points && computerScore < max_points){
+   alert('You WON the game!! Congrats!');
+   userScore = 0;
+   computerScore = 0;
+   isGameOver = true;  
+
+<b>Restart button only appearing when game was over - </b>
 <h2>Technologies Used</h2>
 
 * HTML
