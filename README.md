@@ -30,7 +30,7 @@ The user chooses one of three options (Rock, Paper or Scissors) & this choice is
 * <b>Paper</b> beats <b>Rock</b>
 * <b>Scissors</b> beats <b>Paper</b>
 
-The user/computer increments by 1 each time they win & does not increment if they draw or lose a game. 
+The user/computer score increments by 1 each time they win & does not increment if they draw or lose a game.  The first to 10 points wins! 
 
 <h2>Features</h2>
 I plan to include the following features:
