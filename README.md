@@ -118,6 +118,8 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 
 <b>JSHint</b>
 
+![jshint validation](https://user-images.githubusercontent.com/105642587/193472749-72373d9c-d616-4178-82d9-5eea7672eac2.jpg)
+
 <b>Wev Dev Tools Chrome</b>
 
 I used web dev tools in chrome to access the quality & accessibility of the webpage. It gave me insight into how the RockPaperScissors website performed & scored highly in Performance, Accessibility, Best Practices & SEO for both desktop & mobile devices
@@ -139,12 +141,13 @@ I used web dev tools in chrome to access the quality & accessibility of the webp
 but would not function on deployed website. For javascript file to load correctly I changed to absolute file path  
 <script src="/rockpaperscissors---P2/assets/app.js"></script>
 <hr>
-<b>Issue with gameOver function - </b> I had issues with getting game to stop when user or computer reached max_points (set to 10 in this example).I overcame this by setting a variable as "let isGameover = false;". Then adding isGameOver function into the game() function. So if isGameOver function is false then play the game. Within the game function the gameOver function was included to run with statements defined within the function gameOver() with an else if statement. These determined the conditions for who won, the user or computer or if the game was drawn. The code was executed if the conditions were true, i.e. 
-//* if(userScore === max_points && computerScore < max_points){
-//* alert('You WON the game!! Congrats!');
-//* userScore = 0;
-//* computerScore = 0;
-//* isGameOver = true;  
+<b>Issue with gameOver function - </b> I had issues with getting game to stop when user or computer reached max_points (set to 10 in this example).I overcame this by setting a variable as "let isGameover = false;". Then adding isGameOver function into the game() function. So if isGameOver function is false then play the game. Within the game function the gameOver function was included to run with statements defined within the function gameOver() with an else if statement. These determined the conditions for who won, the user or computer or if the game was drawn. The code was executed if the conditions were true, i.e.
+<br>
+if(userScore === max_points && computerScore < max_points){<br>
+alert('You WON the game!! Congrats!');<br>
+userScore = 0;<br>
+computerScore = 0;<br>
+isGameOver = true;<br>
 
 <hr>
 <b>Restart button only appearing when game was over - </b> I initially had this as display:none within CSS but this did not work. I overcame this issue by including CSS styling rules within the gameOver function: 
@@ -180,30 +183,22 @@ link to your deployed repository on the screen below
 * [W3c Css Validation service](https://jigsaw.w3.org/css-validator/)
 * [JSHint JavaScript Validator](https://jshint.com/)
 * [Stack OverFlow](https://stackoverflow.com/)
-
 * [Font Awesome](https://fontawesome.com/)
 * [GetEmoji](https://getemoji.com/)
 * [Coolors](https://coolors.co/)
 
 
 <h3>Credits/References</h3>
-<li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
-<li><b>W3 Schools (https://www.w3schools.com/) - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
 
+<li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
+<li><b>W3 Schools (https://www.w3schools.com/) - </b>clearing up some function queries I had</li>
 <li><b>Stack Overflow - </b>another extremely useful resource I used to rectify many issues with my code throughout the project including how to make my game end when getting to max amount of points</li>
-<li><b>Coolors (https://coolors.co/) -</b> used to select complimentary color palette</li>
-<li><b>https://fonts.google.com/ -</b> used to find complimentary fonts</li>
-	
+
 <h3>Acknowledgements</h3>
 
 <li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions</li>
-<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community. Thanks to Mateusz Smalarz & Alan_5P for helping me with some bug issues</li> 
-<li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
+<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions & help out.
+<li>https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions<li>
 
-
-* https://www.w3schools.com/ - clearing up some function queries I had
-* https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions
-* use of console.log() useful tool to determine if functions are working straight away 
-* can’t have userscore & computer score as a const as it changes so better to use let
 
 
