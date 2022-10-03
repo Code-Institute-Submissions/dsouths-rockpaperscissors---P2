@@ -182,10 +182,13 @@ link to your deployed repository on the screen below
 * [W3c Html Validation service](https://validator.w3.org/)
 * [W3c Css Validation service](https://jigsaw.w3.org/css-validator/)
 * [JSHint JavaScript Validator](https://jshint.com/)
+* [WebDev Checker](https://web.dev/measure/)
+* [Am I Responsive](https://ui.dev/amiresponsive)
 * [Stack OverFlow](https://stackoverflow.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [GetEmoji](https://getemoji.com/)
 * [Coolors](https://coolors.co/)
+* [Evernote](https://evernote.com/)
 
 
 <h3>Credits/References</h3>
