@@ -196,7 +196,7 @@ link to your deployed repository on the screen below
 
 <h3>Acknowledgements</h3>
 
-<li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions</li>
-<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions & help out.
-<li>https://www.geeksforgeeks.org/ - useful resource to see work examples to improve my understanding of JavaScript syntax & functions<li>
-<li>Youtube - I found a number of tutorials on youtube useful in helping me understand javascript & how I should structure my code in relation to a rock, paper, scissors game. I found the tutorials an invaluable resource in overcoming issues that arose. In particular I would like to acknowledge Ania Kubów, Whatsdev, Webdevsimplified, Traversy Media, Dave Gray & Rajneesh Rana
+* <b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions
+* <b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions & help out.
+* <b>[GeeksForGeeks](https://www.geeksforgeeks.org/) - </b>useful resource to see work examples to improve my understanding of JavaScript syntax & functions
+* <b>Youtube</b> - I found a number of tutorials on youtube useful in helping me understand javascript & how I should structure my code in relation to a rock, paper, scissors game. I found the tutorials an invaluable resource in overcoming issues that arose. In particular I would like to acknowledge Ania Kubów, Whatsdev, Webdevsimplified, Traversy Media, Dave Gray & Rajneesh Rana
