@@ -169,6 +169,9 @@ The website was deployed on GitHub by using following steps:
 <li>Click on the branch dropdown menu and select: master</li>
 <li>Click save</li>
 <li>Link to your deployed repository appears</li>
+
+![image](https://user-images.githubusercontent.com/105642587/194870422-ffece2a0-6c97-476d-ba95-ab549a4458ea.png)
+
 </ol>
   
 <h2>Technologies Used</h2>
