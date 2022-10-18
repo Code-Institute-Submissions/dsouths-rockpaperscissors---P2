@@ -1,6 +1,7 @@
 let userScore = 0;
 let computerScore = 0;
 let isGameOver = false;
+
 // to allow game to finish when user or player reaches 10 points
 const max_points = 10;
 const userScore_span = document.getElementById('user-score');
@@ -8,11 +9,12 @@ const computerScore_span = document.getElementById('computer-score');
 const gameResult_p = document.querySelector('.game-result > p');
 const restart = document.querySelector('.restart');  
 
-
+// game choices
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 
+// play game function containing isgameover function, also determines how user wins, loses or draws 
 function game(userChoice) { 
     if(isGameOver) return;
     const computerChoice = getComputerChoice();
@@ -37,6 +39,7 @@ function game(userChoice) {
 }
 game();
 
+// gets computer choice which is random selection of one of the choices  
 function getComputerChoice() { 
     const choices = ['rock', 'paper', 'scissors'];
     const randomNumber = (Math.floor(Math.random() * 3));
@@ -44,6 +47,7 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
+//increments user score by 1 if they win & displays the result of which userChoice beats which computerChoice
 function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
@@ -51,6 +55,7 @@ function win(userChoice, computerChoice) {
     gameResult_p.innerHTML = userChoice + " beats " + computerChoice + "...you WIN!!😁";
 }
 
+//increments computer score by 1 if they win & displays the result of which computerChoice beats which userChoice
 function lose(userChoice, computerChoice) {
     computerScore++;
     computerScore_span.innerHTML = computerScore;
@@ -61,6 +66,7 @@ function draw(userChoice, computerChoice) {
     gameResult_p.innerHTML = "it's a DRAW.....try again!!";
 }
 
+//these event listeners are created for each of the possible user selections when "clicked" - also contains the restart game call to action
 function buttonClick() {
     rock.addEventListener('click', function () {
         game("rock");
@@ -76,6 +82,7 @@ function buttonClick() {
     });
 }
 
+// game over function determines who is the winner after max points reached, gives a prompt with short blurb about winner/loser for user & determines the isGameOver state to be true to allow game to be restarted
 function gameOver() {
     if(userScore === max_points && computerScore < max_points){
         alert('You WON the game!! Congrats!');
