@@ -105,6 +105,9 @@ I used [Coolors](https://coolors.co/) to get a complimentary color palette to ad
 
 ![you LOST alert](https://user-images.githubusercontent.com/105642587/193286608-eb7da41d-532f-43bc-9882-7fe9ed8ce4a8.jpg)
 
+<h3>Media Queries</h3>
+
+I ensured the website would work on multiple screen sizes to ensure a smooth user experience irrespective of the device the user chose to use tablet, phone, desktop, etc. I did however chose a mobile first design & feel the game is optimal for mobile devices...entertainment & fun on the go  
 
 <h2>Validation Checks</h2>
 
