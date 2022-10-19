@@ -1,3 +1,4 @@
+//variables have been defined outside the functions to allow for global scope
 let userScore = 0;
 let computerScore = 0;
 let isGameOver = false;
@@ -109,7 +110,7 @@ function gameOver() {
         restart.style.display = "none";
     }
 }
-
+//when function has run the isGameOver is false as the game is currently running
 function restartGame() {
     isGameOver = false;
     userScore_span.innerHTML = userScore;
