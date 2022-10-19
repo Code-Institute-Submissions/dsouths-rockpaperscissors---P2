@@ -69,9 +69,9 @@ I used a smiling emoji (😁) when the user wins & a crying emoji (😭) in the 
 
 I used [Coolors](https://coolors.co/) to get a complimentary color palette to add to the visual experience of the user. I used the following:
 
-* #05445E - very dark blue
-* #FFD700 - gold
-* #F0F8FF - alice blue
+* #05445E - very dark blue ![very dark blue](https://user-images.githubusercontent.com/105642587/196779046-07f42e94-8e86-47c9-b3b6-99b98d906e3f.jpg)
+* #FFD700 - gold ![gold](https://user-images.githubusercontent.com/105642587/196779087-059e2a5e-2bb7-4cb0-8c65-d4a8f9138008.jpg)
+* #F0F8FF - alice blue ![alice blue](https://user-images.githubusercontent.com/105642587/196779118-2818ba13-4618-4a47-9d3b-5536835b8304.jpg)
 
 <h2>Features</h2>
 
@@ -130,7 +130,13 @@ I used web dev tools in chrome to access the quality & accessibility of the webp
 
 <b>Desktop devices</b>
 
+Initially the SEO was resulting in score of 89
+
 ![lighthouse desktop](https://user-images.githubusercontent.com/105642587/193277836-6eae1716-2487-4566-9383-d801ce09cb2e.jpg)
+
+I added in meta descriptions within HTML header as per advice from lighthouse guidance & increased the score to 100 (seen below)
+
+![lighthouse desktop 2](https://user-images.githubusercontent.com/105642587/196782302-9989e111-54fe-4c5d-b5d4-4905cd97af04.jpg)
 
 
 <h2>Bugs</h2>
@@ -206,7 +212,7 @@ The website was deployed on GitHub by using following steps:
 
 * <b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions
 * <b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions & help out.
-* <b>[GeeksForGeeks](https://www.geeksforgeeks.org/) - </b>useful resource to see work examples to improve my understanding of JavaScript syntax & functions
+* <b>[GeeksForGeeks](https://www.geeksforgeeks.org/) - </b>useful resource to see worked examples to improve my understanding of JavaScript syntax & functions
 * <b>Youtube</b> - I found a number of tutorials on youtube useful in helping me understand javascript & how I should structure my code in relation to a rock, paper, scissors game. I found the tutorials an invaluable resource in overcoming issues that arose. In particular I would like to acknowledge Ania Kubów, Whatsdev, Webdevsimplified, Traversy Media, Dave Gray & Rajneesh Rana
 
 <h3>Final Note</h3>
